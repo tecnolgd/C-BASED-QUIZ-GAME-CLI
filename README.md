@@ -1,2 +1,3 @@
 # QUIZ GAMER
-S
+### Author
+*codelgd*
