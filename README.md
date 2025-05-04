@@ -1,4 +1,5 @@
 # QUIZZO  GAMING CONSOLE
+  a user friendly quiz gaming console by c programming language
 ## DESCRIPTION
 ## FEATURES
 ## HOW TO USE?
