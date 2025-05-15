@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "head.h"
-int displayMenu();
-void showRules();
-void startQuiz();
+#include "cli.c"
+#include "question_rank.c"
+#include "rules.c"
+
 
 
 void exitGame(){
