@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "head.h"
 void startQuiz(){
+    
     char ch;
     int score=0;
     printf("the quiz has started..\n");
