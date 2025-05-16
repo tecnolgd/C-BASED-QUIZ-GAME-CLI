@@ -6,8 +6,9 @@ void startQuiz(){
     char ch;
     int score=0;
     printf("the quiz has started..\n");
-    char que[]="what is the capital of france";
-    char pts[]={"a)paris ,b)spain,c)tokyp,d)shadong"};
+    printf("what is the capital of france\n");
+    printf("a)paris ,b)spain,c)tokyp,d)shadong\n");
+    printf("enter option\n");
     scanf("%c",&ch);
     
     if(ch=='a'){
