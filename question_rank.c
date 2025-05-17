@@ -3,15 +3,15 @@
 #include "head.h"
 void startQuiz(){
     
-    char ch;
+    int x;
     int score=0;
     printf("the quiz has started..\n");
     printf("what is the capital of france\n");
-    printf("a)paris ,b)spain,c)tokyp,d)shadong\n");
+    printf("1)paris ,2)spain,3)tokyp,4)shadong\n");
     printf("enter option\n");
-    scanf("%c",&ch);
+    scanf("%d",&x);
     
-    if(ch=='a'){
+    if(x== 1){
         printf("correct!\n");
         score=score+10;
     }
