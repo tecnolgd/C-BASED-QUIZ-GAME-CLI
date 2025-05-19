@@ -5,23 +5,24 @@
 #include "head.h"
 void startQuiz(){
     
-    int i=0,j=0;
+    int j,i=0;
      
     int score=0;
     char choice_options[4];
-    unsigned char questions[4]={"1.what is the capital of france?","2.who created c programming language?","3.who is the father of computers?"};
-    char options[5][4][20]={{"1.berlin","2.tokyo","3.paris","4.dublin"},{"1.dennis ritchie","2.b.jarne stroustrup","3.larry page","4.bill gates"},{"1.charles babbage","2.bengamin franklin","3.lady ada lovelace","4.elon musk"}};
+    char questions[3][100]={"1.what is the capital of france?","2.who created c programming language?","3.who is the father of computers?"};
+    char options[3][4][100]={{"1.berlin","2.tokyo","3.paris","4.dublin"},{"1.dennis ritchie","2.b.jarne stroustrup","3.larry page","4.bill gates"},{"1.charles babbage","2.bengamin franklin","3.lady ada lovelace","4.elon musk"}};
     char correct_options[3]={'3','1','1'};
     printf("the quiz has started..\n");
-    while(i<4){
-        printf("%ls\n",questions[i]);
-        for(int i=0;i<4;i++){
-            for( j=0;j<5;j++){
-                int k=0;
-         printf("%s\n",options[i][j][k]);
-         k++;
+    
+        
+        for(int i=0;i<3;i++){
+            printf("%s\n",questions[i][100]);
+            for( j=0;j<4;j++){
+                
+         printf("%s\n",options[i][j][100]);
+         
         scanf("%s",&choice_options[j]);
-             } }
+             } 
         
     
      
