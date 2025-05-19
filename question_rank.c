@@ -1,24 +1,39 @@
 
 #include <stdio.h>
+#include<string.h>
 #include "head.h"
 void startQuiz(){
     
-    int x;
+    int i=0,j=0;
+     
     int score=0;
+    char choice_options[4];
+    char questions[3]={"1.what is the capital of france?","2.who created c programming language?","3.who is the father of computers?"};
+    char options[4][3]={{"1.berlin","2.tokyo","3.paris","4.dublin"},{"1.dennis ritchie","2.b.jarne stroustrup","3.larry page","4.bill gates"},{"1.charles babbage","2.bengamin franklin","3.lady ada lovelace","4.elon musk"}};
+    char correct_options[3]={"3","1","1"};
     printf("the quiz has started..\n");
-    printf("what is the capital of france\n");
-    printf("1)paris ,2)spain,3)tokyp,4)shadong\n");
+    while(i<4){
+        printf("%s\n",questions[i]);
+        for(int i=0;i<4;i++){
+            for( j=0;j<5;j++){
+         printf("%s\n",options[i][j]);
+         
+        scanf("%s",&choice_options[j]);
+             } }
+        
     
-    printf("enter option\n");
-    scanf("%d",&x);
-    
-    if(x== 1){
+     
+    if(choice_options[j]==correct_options[j]){
         printf("correct!\n");
-        score=score+10;
+        score=score+20;
     }
-    else 
+    else {
     printf("wrong\n");
-    score=0;
+    score=score+0;
+    }
+    i++;
+}
+
    if (score >= 80) {
     printf("Rank: S - high knowledge \n");
 } else if (score >= 60) {
