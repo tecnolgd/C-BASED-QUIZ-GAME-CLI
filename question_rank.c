@@ -8,7 +8,7 @@ void startQuiz(){
     int j,i=0;
      
     int score=0;
-    char choice_options[4];
+    char choice_options[3];
     char questions[3][100]={"1.what is the capital of france?","2.who created c programming language?","3.who is the father of computers?"};
     char options[3][4][100]={{"1.berlin","2.tokyo","3.paris","4.dublin"},{"1.dennis ritchie","2.b.jarne stroustrup","3.larry page","4.bill gates"},{"1.charles babbage","2.bengamin franklin","3.lady ada lovelace","4.elon musk"}};
     char correct_options[3]={'3','1','1'};
@@ -16,16 +16,16 @@ void startQuiz(){
     
         
         for(int i=0;i<3;i++){
-            printf("%s\n",questions[i][100]);
+            printf("%s\n",questions[i]);
             for( j=0;j<4;j++){
                 
-         printf("%s\n",options[i][j][100]);
+         printf("%s\n",options[i][j]);
+            }
+        scanf("%c\n",&choice_options[j]);
          
-        scanf("%s",&choice_options[j]);
-             } 
-        
+        int k=0;
     
-     
+       
     if(choice_options[j]==correct_options[j]){
         printf("correct!\n");
         score=score+20;
@@ -34,8 +34,8 @@ void startQuiz(){
     printf("wrong\n");
     score=score+0;
     }
-    i++;
-}
+    k++;
+       }
 
    if (score >= 80) {
     printf("Rank: S - high knowledge \n");
