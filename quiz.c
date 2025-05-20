@@ -5,13 +5,12 @@
 #include "rules.c"
 
 
-
 void exitGame(){
     printf("well play better next timebye\n");
 }
 int main(){
-   int u;
-   int choice=displayMenu(u);
+  int choice;
+  displayMenu(choice);
 
     switch(choice){
         case 1: startQuiz();
