@@ -48,5 +48,5 @@ void startQuiz(){
 } else {
     printf("Rank: C - okay \n");
 } 
-   
+  printf("\nwell play better next timebye\n");
 }
