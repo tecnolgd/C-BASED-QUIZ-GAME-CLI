@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "head.h"
 #include "cli.c"
 #include "question_rank.c"
 #include "rules.c"
- int displayMenu(int choice);
+int x,back;
+ int displayMenu(int x);
 void startQuiz();
-int showRules(int x);
+void showRules();
+
 void exitGame(){
     printf("well play better next timebye\n");
 }
@@ -13,16 +16,26 @@ int main(){
   
   
   int y;
-  int choice=displayMenu(1);
 
+ 
+   int choice=displayMenu(choice);
+  
     switch(choice){
         
         case 1:startQuiz();
-                break;        
-        case 2: showRules(1);
                 break;
-        case 3: printf("well play better next timebye\n");
-                break;
+            
+        case 2: do{
+        showRules();
+        }
+        while(back==1);
+        break;
+
+        
+        
+                
+        case 3: printf("bye  bye\n");
+                exit(0);
         default: printf("invalid choice.try again.");
        
                 

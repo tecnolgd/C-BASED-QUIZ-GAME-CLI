@@ -1,10 +1,9 @@
 
-#include <stdio.h>
 #include "head.h"
 
 
-int showRules(int){
-    int back;
+void showRules(){
+    
     
     printf("the rules for the game as follows:\n");
     printf("Number of Questions\nhe quiz consists of a fixed number of questions (e.g., 5 or 10), each with multiple choice answers (A, B, C, D)");
@@ -16,11 +15,10 @@ printf("Answer\nFormat:\n");printf("You must input only the option letter (A, B,
 
 printf("\npress 1to go back to home page");
 scanf("%d",&back);
-if(back==1){
-displayMenu(1);
-
-}else 
-return 0;
-
 }
+
+
+
+
+
 
