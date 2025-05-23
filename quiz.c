@@ -10,7 +10,7 @@ void startQuiz();
 void showRules();
 
 void exitGame(){
-    printf("well play better next timebye\n");
+    printf("well play. better next timebye\n");
 }
 int main(){
   
