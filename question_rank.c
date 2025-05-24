@@ -40,7 +40,7 @@ void startQuiz(){
        
 
    if (score >= 80) {
-    printf("Rank: S - high knowledge \n");
+    printf("Rank: Z - high knowledge \n");
 } else if (score >= 60) {
     printf("Rank: A - mediocre\n");
 } else if (score >= 40) {
