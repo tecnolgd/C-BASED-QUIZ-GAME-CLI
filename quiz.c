@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include "head.h"
 #include "question_rank.c"
-
- int displayMenu(int choice);
+int back,choice;
+ int displayMenu(int x);
 void startQuiz();
 void showRules();
-int choice;
+
 void exitGame(){
     printf("well play. better next timebye\n");
 }
-int displayMenu(int choice){
+int displayMenu(int x){
     printf("\t**QUIZZER RUSH**\t\n");
     printf("1. start quiz\n");
     printf("2. view rules\n");
@@ -24,10 +24,13 @@ int main(){
   
   int y;
  
- 
+    int x;
+   
+   do{
     choice=displayMenu(choice);
-    
- 
+   
+   }
+   while(back==1);
     switch(choice){
         
         case 1:startQuiz();
@@ -35,7 +38,8 @@ int main(){
             
         case 2: 
             showRules();
-            break;
+          break;
+    
         
         case 3: printf("bye  bye\n");
                 exit(0);
@@ -51,11 +55,14 @@ int main(){
     if(y==2){
     startQuiz();
     }
+
     return 0;
 }
+
 void showRules(){
-    int choice;
-    int back;
+    
+    
+
     printf("the rules for the game as follows:\n");
     printf("Number of Questions\nhe quiz consists of a fixed number of questions (e.g., 5 or 10), each with multiple choice answers (A, B, C, D)");
 printf("Scoring\nEach correct answer awards 1 point.\nThere is no negative marking for wrong answers.");
@@ -66,8 +73,7 @@ printf("Answer\nFormat:\n");printf("You must input only the option letter (A, B,
 
 printf("\npress 1to go back to home page");
 scanf("%d",&back);
-if(back==1)
-displayMenu(choice);
+
 }
 
 
