@@ -43,7 +43,7 @@ int main(){
         
         case 3: printf("bye  bye\n");
                 exit(0);
-        default: printf("invalid choice .try again");
+        default: printf("Invalid choice .try again");
        
                 
         
