@@ -41,7 +41,7 @@ int main(){
           break;
     
         
-        case 3: printf("bye  bye\n");
+        case 3: printf("bye bye\n");
                 exit(0);
         default: printf("Invalid choice .try again");
        
