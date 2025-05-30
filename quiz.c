@@ -41,7 +41,7 @@ int main(){
           break;
     
         
-        case 3: printf("bye bye\n");
+        case 3: printf("bye  bye\n");
                 exit(0);
         default: printf("Invalid choice .try again");
        
@@ -50,7 +50,7 @@ int main(){
     }
    
     
-    printf("to retake quiz enter 2\nto quit,enter 0");
+    printf("to retake quiz ,enter 2\nto quit,enter 0");
     scanf("%d",&y);
     if(y==2){
     startQuiz();
