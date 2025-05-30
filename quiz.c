@@ -3,21 +3,19 @@
 #include "head.h"
 #include "question_rank.c"
 int back,choice;
- int displayMenu(int x);
+ void displayMenu();
 void startQuiz();
-void showRules();
+int showRules(int);
 
 void exitGame(){
     printf("well play. better next timebye\n");
 }
-int displayMenu(int x){
+void displayMenu(){
     printf("\t**QUIZZER RUSH**\t\n");
     printf("1. start quiz\n");
     printf("2. view rules\n");
     printf("3. exit\n");
-    printf("enter choice:");
-    scanf("%d",&choice);
-    return choice;
+    
 }
 int main(){
   
@@ -25,19 +23,24 @@ int main(){
   int y;
  
     int x;
-   
    do{
-    choice=displayMenu(choice);
+
    
-   }
-   while(back==1);
+   displayMenu();
+    
+    printf("enter choice:");
+    scanf("%d",&choice);
+
+    }
+    while(back==1);
+   
     switch(choice){
         
         case 1:startQuiz();
                 break;
             
         case 2: 
-            showRules();
+            showRules(x)
           break;
     
         
@@ -59,7 +62,7 @@ int main(){
     return 0;
 }
 
-void showRules(){
+int showRules(int back){
     
     
 
@@ -73,6 +76,7 @@ printf("Answer\nFormat:\n");printf("You must input only the option letter (A, B,
 
 printf("\npress 1to go back to home page");
 scanf("%d",&back);
+return back;
 
 }
 

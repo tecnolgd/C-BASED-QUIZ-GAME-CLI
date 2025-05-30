@@ -2,7 +2,7 @@
 #define HEAD_H
 
 void startQuiz();
-void showRules();
-int displayMenu(int);
+int showRules(int);
+void displayMenu();
 void exitGame();
 #endif
