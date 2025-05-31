@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #include "head.h"
 #include "question_rank.c"
+#include "cli.c"
+#include "rules.c"
+
 int back,choice;
- void displayMenu();
+ int displayMenu();
 void startQuiz();
-int showRules(int);
+void showRules();
 
 void exitGame(){
     printf("well play. better next timebye\n");
+    printf("/home/\n");
 }
-void displayMenu(){
-    printf("\t**QUIZZER RUSH**\t\n");
-    printf("1. start quiz\n");
-    printf("2. view rules\n");
-    printf("3. exit\n");
-    
-}
+
+
 int main(){
   
   
@@ -25,14 +25,13 @@ int main(){
     int x;
    do{
 
-   
-   displayMenu();
+     
+     choice= displayMenu();
     
     printf("enter choice:");
     scanf("%d",&choice);
 
-    }
-    while(back==1);
+    
    
     switch(choice){
         
@@ -40,45 +39,37 @@ int main(){
                 break;
             
         case 2: 
-            showRules(x)
+            showRules();
           break;
     
         
-        case 3: printf("bye  bye\n");
+        case 3: printf("well play.better next time.");
                 exit(0);
         default: printf("Invalid choice .try again");
        
                 
         
     }
-   
-    
-    printf("to retake quiz ,enter 2\nto quit,enter 0");
-    scanf("%d",&y);
-    if(y==2){
-    startQuiz();
-    }
+    printf("\nwanna try again??");
+    printf("\n//home//");
 
-    return 0;
-}
 
-int showRules(int back){
-    
-    
-
-    printf("the rules for the game as follows:\n");
-    printf("Number of Questions\nhe quiz consists of a fixed number of questions (e.g., 5 or 10), each with multiple choice answers (A, B, C, D)");
-printf("Scoring\nEach correct answer awards 1 point.\nThere is no negative marking for wrong answers.");
-printf("\nYour total score will be displayed at the end of the quiz\n");
-printf("Answer\nFormat:\n");printf("You must input only the option letter (A, B, C, or D).\n");printf("Answers are case-insensitive (both a and A are valid).\n");printf("No Second Chances:\nOnce you answer a question, you cannot change your response.\nTime Limit (Optional Feature):\n");printf("If implemented, each question must be answered within a certain time limit.\nVictory Condition:\nA minimum score (e.g., 70 per or 4 out of 5) may be required to the game.\nBonus messages or rankings can be displayed based on performance.\nCheating Not Allowed\nThis quiz relies on your honesty. Dont peek at answers.cheating yourself is the biggest downfall .\nExit Option:\nYou can quit the quiz at any time by choosing the exit option in the menu.");
-
-    
-
-printf("\npress 1to go back to home page");
+   printf("\npress 0 to exit ,other number to go to home page");
 scanf("%d",&back);
-return back;
+   }
+ while(back!=0);
+
+    printf("well play. better next time.\n");
+
+
+    
+return 0;
+
 
 }
+
+
+
 
 
 

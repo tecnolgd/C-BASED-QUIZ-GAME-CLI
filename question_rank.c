@@ -1,7 +1,4 @@
 
-#include <stdio.h>
-#include<string.h>
-#include<conio.h>
 #include "head.h"
 void startQuiz(){
      
@@ -48,5 +45,5 @@ void startQuiz(){
 } else {
     printf("Rank: C - okay \n");
 } 
-  printf("\nwell play better next timebye\n");
+
 }
