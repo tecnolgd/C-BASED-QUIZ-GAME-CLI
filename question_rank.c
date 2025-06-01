@@ -1,5 +1,5 @@
-
 #include "head.h"
+
 void startQuiz(){
      
     int score=0;
@@ -9,41 +9,35 @@ void startQuiz(){
     char correct_options[3]={'c','a','a'};
     printf("the quiz starts..\n");
     
+    for(int i=0;i<3;i++){
+        printf("%s\n",questions[i]);
         
-        for(int i=0;i<3;i++){
-            printf("%s\n",questions[i]);
-            for( int j=0;j<4;j++){
-                
-         printf("%s\n",options[i][j]);
-            } 
-            while ((getchar()) != '\n');
+        for( int j=0;j<4;j++){
+            printf("%s\n",options[i][j]);
+        } 
+        while ((getchar()) != '\n');
         scanf("%c",&choice_option);
-            
-       
-    
-
-    if(choice_option==correct_options[i]){
         
-        printf("correct!\n");
-        score=score+20;
-    }
-    else {
-    printf("wrong\n");
-    score=score+0;
-    
-}
-
+        if(choice_option==correct_options[i]){
+            printf("correct!\n");
+            score=score+20;
         }
+        else {
+            printf("wrong\n");
+            score=score+0;
+        }
+
+    }
        
 
    if (score >= 80) {
-    printf("Rank: Z - high knowledge \n");
-} else if (score >= 60) {
-    printf("Rank: A - mediocre\n");
-} else if (score >= 40) {
-    printf("Rank: B - descent\n");
-} else {
-    printf("Rank: C - okay \n");
-} 
+        printf("Rank: Z - Top smarty. \n");
+    } else if (score >= 60) {
+        printf("Rank: A - Decent fella\n");
+    } else if (score >= 40) {
+        printf("Rank: B - Mediocre.\n");
+    } else {
+        printf("Rank: C - Bad Geek. \n");
+    } 
 
 }
