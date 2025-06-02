@@ -7,7 +7,7 @@ void startQuiz(){
     char questions[3][100]={"1.What is the capital of France?","2.Who created C programming language?","3.Who is the father of computers?"};
     char options[3][4][100]={{"a.Berlin","b.Tokyo","c.Paris","d.Dublin"},{"a.Dennis Ritchie","b.B.Jarne Stroustrup","c.Larry Page","d.Bill Gates"},{"a.Charles Babbage","b.Benjamin Franklin","c.Lady Ada Lovelace","d.Elon Musk"}};
     char correct_options[3]={'c','a','a'};
-    printf("The quiz starts🚩🚩..\n");
+    printf("The quiz starts..\n");
     
     for(int i=0;i<3;i++){
         printf("%s\n",questions[i]);
