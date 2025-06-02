@@ -34,13 +34,14 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 - CLI animation (ncurses or ASCII effects)
 - GUI version using SDL or similar
 --------
-##  How to Run🔛
+## How to Run🔛
+Compile the file using any C compiler:
 
-```bash
-gcc main.c -o quiz
-./quiz
+bash(command line)
+### *gcc quiz.c -o quiz && quiz* (for VS code) 
+
 --------------
-Note:*For clear screen in the output,append the code with*
+## Note:*For clear screen in the output,append the code with*
 
 ## *system("cls");*
 //for WINDOWS OS
@@ -51,6 +52,7 @@ Note:*For clear screen in the output,append the code with*
 --------------
 ### Value in this Repo?
 #### If this repository added value to your learning or dev flow, consider dropping a ⭐ *star* or hitting *fork*.
+#### Happy for feebacks and knowledge exchange 🚀
 --------------
 
 Author
