@@ -1,4 +1,4 @@
-# QUIZZZER RUSH - C Console Interface🎯
+# QUIZZER RUSH - C Console Interface🎯
 
 A clean and powerful console-based Quiz Game written in C.  
 Built to strengthen core programming concepts — loops, conditions, and logic — without any shortcuts or premature complexity.
