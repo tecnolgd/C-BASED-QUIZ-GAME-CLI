@@ -1,3 +1,4 @@
+//This block of code develops the home menu of the game.
 #include "head.h"
 
 int displayMenu(){

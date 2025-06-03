@@ -1,3 +1,4 @@
+//This block of code describes the rules set for the game.
 #include "head.h"
 
 void showRules(){
