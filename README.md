@@ -6,7 +6,7 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 ## Features⚙️
 
 - Start quiz with 5 questions(as of now)
-- Score calculation (+10 / +0)
+- Score calculation (+20 / +0)
 - Final rank display based on performance
 - Menu-based interface(loop based)
 - No pointer or advanced fog — just real logic

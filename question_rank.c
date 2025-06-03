@@ -1,6 +1,3 @@
-//QUIZZER RUSH-A console menu-based game ,with pure logic of looping statements ,conditions and array logic.
-//Includes conceps of modularisation and linkers in a simple C program.
-
 //This block of code consists of the logic for the quiz question generation and grading scheme and with display of rank based on total score. 
 #include "head.h"
 
@@ -34,11 +31,11 @@ void startQuiz(){
     }
        
 
-   if (score >= 80) { //ranking logic using else-if ladder
+   if (score >= 70) { //ranking logic using else-if ladder
         printf("Rank: Z - Top smarty. \n");
-    } else if (score >= 60) {
+    } else if (score >= 55) {
         printf("Rank: A - Decent fella\n");
-    } else if (score >= 40) {
+    } else if (score >= 35) {
         printf("Rank: B - Mediocre.\n");
     } else {
         printf("Rank: C - Bad Geek. \n");
