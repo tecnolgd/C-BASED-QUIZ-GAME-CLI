@@ -39,7 +39,7 @@ int main(){
       }
       printf("\nWanna try again??");
       printf("\n//home//");
-      printf("\nPress 0 to exit ,other number to go to //home// page");
+      printf("\nPress 0 to exit ,1 to go to //home// page\t");
       scanf("%d",&back);
     }
     while(back!=0); //condition to check whether user wants to continue the game or not
