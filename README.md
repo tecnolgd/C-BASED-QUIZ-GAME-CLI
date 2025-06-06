@@ -53,7 +53,7 @@ bash(command line)
 --------------
 ### Value in this Repo?
 #### If this repository added value to your learning or dev flow, consider dropping a ⭐ *star* or hitting *fork*.
-#### Happy for feebacks and knowledge exchange 🚀
+### Happy for feebacks and knowledge exchange. 🚀
 --------------
 
 ### Author
