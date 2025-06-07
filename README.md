@@ -14,7 +14,7 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 --------
 ##  Tech Stack🚀🚀
 
-- C (Pure C99)
+- C programming language 
 - Console-based UI
 --------
 ##  Concepts Practiced🪛
