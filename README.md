@@ -7,7 +7,7 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 ## Features⚙️
 
 - Start quiz with 5 questions(as of now)
-- Score calculation (+20 / +0)
+- Score calculation (+20 / -0)
 - Final rank display based on performance
 - Menu-based interface(loop based)
 - No pointer or advanced fog — just real logic
@@ -53,7 +53,7 @@ bash(command line)
 --------------
 ### Value in this Repo?
 #### If this repository added value to your learning or dev flow, consider dropping a ⭐ *star* or hitting *fork*.
-### Happy for feebacks and knowledge exchange. 🚀
+### Open for  recieving feebacks and knowledge exchange. 🚀
 --------------
 
 ### Author
