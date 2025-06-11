@@ -10,7 +10,7 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 - Score calculation (+20 / -0)
 - Final rank display based on performance
 - Menu-based interface(loop based)
-- No pointer or advance programming fog — just real logic
+- No pointers or advance programming fog — just real logic
 --------
 ##  Tech Stack🚀🚀
 
