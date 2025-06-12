@@ -45,10 +45,10 @@ bash(command line)
 ## Note:*For clear screen in the output,append the code with*
 
 ## *system("cls");*
-//for WINDOWS OS
+//*for WINDOWS OS*
 
 ## *system("clear");*
-//for MAC/LINUX OS  
+//*for MAC/LINUX OS*  
 
 --------------
 ### Value in this Repo?
