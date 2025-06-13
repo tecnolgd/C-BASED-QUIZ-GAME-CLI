@@ -1,5 +1,4 @@
 ![MIT License](https://img.shields.io/github/license/tecnolgd/C-BASED-QUIZ-GAME-CLI?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/Open-Source-Blue)
 
 # QUIZZER RUSH - C Console Interface🎯
