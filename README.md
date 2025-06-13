@@ -1,5 +1,6 @@
 ![MIT License](https://img.shields.io/github/license/tecnolgd/C-BASED-QUIZ-GAME-CLI?style=flat)
-https://img.shields.io/badge/Open-Source-blue
+![Static Badge](https://img.shields.io/badge/:Open-Source)
+
 # QUIZZER RUSH - C Console Interface🎯
 
 A clean and powerful console-based quiz Game written in C.  
