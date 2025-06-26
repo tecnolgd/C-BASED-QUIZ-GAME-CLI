@@ -55,7 +55,7 @@ bash(command line)
 --------------
 ### Value in this Repo?
 #### If this repository added value to your learning or dev flow, consider dropping a ⭐ *star* or hitting *fork*.
-### Open for  recieving feebacks and knowledge exchange. 🚀
+#### Open for  receiving feebacks and knowledge exchange. 🚀
 --------------
 
 ### Author
