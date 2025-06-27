@@ -23,7 +23,7 @@ Built to strengthen core programming concepts â€” loops, conditions, and logic â
 
 - if-else, switch-case
 - Loops (for/while)
-- Functions
+- Functions(user-defined)
 - Arrays (1D,2D and 3D)
 - Modular code structure
 - Use of linkers
