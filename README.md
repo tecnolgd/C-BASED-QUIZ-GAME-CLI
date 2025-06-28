@@ -18,6 +18,7 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 
 - C programming language 
 - Console-based UI
+- logic-building
 --------
 ##  Concepts Practiced🪛
 
