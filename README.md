@@ -39,10 +39,11 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 ---
 ## How to Run🔛
 1) Compile the file using any C compiler:
-     ***gcc quiz.c -o quiz && quiz*** (for VS code) 
+     ***gcc quiz.c -o quiz && quiz*** (for VS code)
+2) The application will be open for user interaction in the terminal.
 
 ---
-## Note:*For clear screen in the output,append the code with*
+Note: *For clear screen in the output,append the code with*
 * *system("cls");*
 //*for WINDOWS OS*
 * *system("clear");*
