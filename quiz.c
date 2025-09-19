@@ -13,7 +13,6 @@ int back,choice;
 int displayMenu();
 void startQuiz();
 void showRules();
-
 void exitGame(){
     printf("Well play. Better next time.\n");
     printf("/home/\n");
@@ -21,13 +20,11 @@ void exitGame(){
 
 int main(){
     do{ //loop for continuos menu display
-
-     
-      choice= displayMenu();
-      printf("Enter your choice:");
-      scanf("%d",&choice);
+        choice= displayMenu();
+        printf("Enter your choice:");
+        scanf("%d",&choice);
       
-      switch(choice){ //switch statement for menu choice 
+        switch(choice){ //switch statement for menu choice 
           case 1: startQuiz();
                   break;
           case 2: showRules();
@@ -35,12 +32,11 @@ int main(){
           case 3: printf("well play.better next time.");
                   exit(0);
         default: printf("Invalid choice .try again");
-       
-      }
-      printf("\nWanna try again??");
-      printf("\n//home//");
-      printf("\nPress 0 to exit ,1 to go to //home// page\t");
-      scanf("%d",&back);
+        }
+        printf("\nWanna try again??");
+        printf("\n//home//");
+        printf("\nPress 0 to exit ,1 to go to //home// page\t");
+        scanf("%d",&back);
     }
     while(back!=0); //condition to check whether user wants to continue the game or not
     printf("Well play. Better next time.\n");
