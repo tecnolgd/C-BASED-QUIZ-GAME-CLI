@@ -2,7 +2,6 @@
 #include "head.h"
 
 void startQuiz(){
-     
     int score=0;
     char choice_option;
     char questions[3][100]={"1.What is the capital of France?","2.Who created C programming language?","3.Who is the father of computers?"};
@@ -12,7 +11,6 @@ void startQuiz(){
     
     for(int i=0;i<3;i++){ //loop for printing questions 
         printf("%s\n",questions[i]);
-        
         for( int j=0;j<4;j++){
             printf("%s\n",options[i][j]);//loop for printing options
         } 
@@ -27,11 +25,9 @@ void startQuiz(){
             printf("wrong\n");
             score=score+0;
         }
-
     }
-       
-
-   if (score >= 70) { //ranking logic using else-if ladder
+    
+     if (score >= 70) { //ranking logic using else-if ladder
         printf("Rank: Z - Top smarty. \n");
     } else if (score >= 55) {
         printf("Rank: A - Decent fella\n");
@@ -40,5 +36,4 @@ void startQuiz(){
     } else {
         printf("Rank: C - Bad Geek. \n");
     } 
-
 }
