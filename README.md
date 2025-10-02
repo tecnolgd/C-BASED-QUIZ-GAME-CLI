@@ -43,7 +43,9 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 - GUI version using SDL or similar stuff.
 
 ## How to Run🔛
-Compile the file using any C compiler:
+1) Compile and run the file using any C compiler in the terminal:
+     ***gcc quiz.c -o quiz && quiz*** (for VS code)
+2) The application will be open for user interaction in the terminal.
 
 bash(command line)
 ```

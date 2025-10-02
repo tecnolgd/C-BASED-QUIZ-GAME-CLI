@@ -2,7 +2,6 @@
 #include "head.h"
 
 int displayMenu(){
-    
     printf("\t***QUIZZER RUSH***\t\n");
     printf("______________________\n");
     printf("1. Start quiz\n");
