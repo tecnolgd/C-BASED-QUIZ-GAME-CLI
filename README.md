@@ -42,7 +42,6 @@ Built to strengthen core programming concepts â€” loops, conditions, and logic â
      gcc quiz.c -o quiz && quiz // for windows
 ```
 2) The application will be open for user interaction in the terminal.
-
 bash(command line)
 ```
  gcc quiz.c -o quiz && quiz (for VS code) 
