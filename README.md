@@ -38,12 +38,14 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 
 ## How to Run🔛
 1) Compile and run the file using any C compiler in the terminal:
-     ***gcc quiz.c -o quiz && quiz*** (for VS code)
+```
+     gcc quiz.c -o quiz && quiz // for windows
+```
 2) The application will be open for user interaction in the terminal.
 
 bash(command line)
 ```
- *gcc quiz.c -o quiz && quiz* (for VS code) 
+ gcc quiz.c -o quiz && quiz (for VS code) 
 ```
 #### Note:*For clear screen in the output,append the code with*
 ``` 
