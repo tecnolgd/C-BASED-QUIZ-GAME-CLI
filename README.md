@@ -5,7 +5,7 @@
 # QUIZZER RUSH - C Console Interface🎯
 A clean and powerful console-based quiz Game written in C.  
 Built to strengthen core programming concepts — loops, conditions, and logic — without any shortcuts or premature complexity.
----
+
 ## Features⚙️
 - Start quiz with 5 questions(as of now)
 - Score calculation (+20 / -0)
@@ -54,6 +54,6 @@ system("clear");   //for MAC/LINUX OS
 ## Value in this Repo?
 * If this repository added value to your learning or dev flow, consider dropping a ⭐ *star* or hitting *fork*.
 * Open for receiving feebacks and knowledge exchange. 🚀
----
+
 ### Author
 ***tecnolgd***
