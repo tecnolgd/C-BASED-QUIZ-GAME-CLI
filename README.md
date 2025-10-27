@@ -36,15 +36,24 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 - CLI animation (ncurses or ASCII effects)
 - GUI version using SDL or similar stuff.
 
+## How it works ?
+1. Start the application in the terminal.
+2. The question will be displayed with the options.
+3. User has to choose tge right option and enter it on the command-line.
+4. Instant result stating whether the answer is correct or not is given.
+5. Each right answer is assigned a score of 20 and each wrong answer is assigned a score of 0.
+6. The **total score** is calculated and displayed after all questions are answered.
+7. A **rank** is also assigned to the user based on performance.
+8. (**Note**: The user can take the quiz multiple times as needed.)
+
 ## How to Run🔛
 1) Compile and run the file using any C compiler in the terminal:
-```bash
-     gcc quiz.c -o quiz && quiz // for windows
+```cmd
+     gcc quiz.c -o quiz && quiz #for windows
 ```
 2) The application will be open for user interaction in the terminal.
-bash(command line)
 ```bash
- gcc quiz.c -o quiz && quiz (for VS code) 
+ gcc quiz.c -o quiz && quiz #(for VS code) 
 ```
 #### Note:*For clear screen in the output,append the code with*
 ```c 
