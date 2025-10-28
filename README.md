@@ -59,6 +59,11 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 system("cls");   //for WINDOWS OS
 system("clear");   //for MAC/LINUX OS  
 ```
+## Readme Add-ons ➕️
+- [x] Comments for source code
+- [x] Working process description
+- [ ] Random question generation logic
+      
 ## Value in this Repo?
 * If this repository added value to your learning or dev flow, consider dropping a ⭐ *star* or hitting *fork*.
 * Open for receiving feebacks and knowledge exchange. 🚀
