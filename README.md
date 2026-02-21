@@ -1,8 +1,10 @@
-![MIT License](https://img.shields.io/github/license/tecnolgd/C-BASED-QUIZ-GAME-CLI?style=flat)
-![Static Badge](https://img.shields.io/badge/tools-Open_Source-blue)
-![Static Badge](https://img.shields.io/badge/interface-CLI-white)
 
 # QUIZZER RUSH - C Console Interface🎯
+
+![MIT License](https://img.shields.io/github/license/tecnolgd/C-BASED-QUIZ-GAME-CLI?style=flat)
+![Static Badge](https://img.shields.io/badge/gcc-13.3.0+-blue)
+![Static Badge](https://img.shields.io/badge/interface-CLI-white)
+
 A clean and powerful console-based quiz Game written in C.  
 Built to strengthen core programming concepts — loops, conditions, and logic — without any shortcuts or premature complexity.
 
@@ -46,13 +48,20 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 7. A **rank** is also assigned to the user based on total score.
 8. (**Note**: The user can take the quiz multiple times as needed.)
 
-## How to Run🔛
+## Quick Run🔛
 1) Clone the repo.
-1) Compile and run the file using any C compiler in the terminal:
+2) Compile and run the file using any C compiler in the terminal:
 ```cmd
-     gcc quiz.c -o quiz && quiz #for windows
+     gcc *.c -o quiz && quiz #for Windows
 ```
-2) The application will be open for user interaction in the terminal.
+```cmd
+     gcc *.c -o quiz #for Linux
+```
+3) Run the executable,
+```bash
+     quiz.exe #for Windows
+     ./quiz #for Linux
+```
 
 #### Note:*For clear screen in the output,append the code with*
 ```c 
