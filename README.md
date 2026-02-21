@@ -51,10 +51,10 @@ Built to strengthen core programming concepts — loops, conditions, and logic �
 ## Quick Run🔛
 1) Clone the repo.
 2) Compile and run the file using any C compiler in the terminal:
-```cmd
+```bash
      gcc *.c -o quiz.exe && quiz #for Windows
 ```
-```cmd
+```bash
      gcc *.c -o quiz.out #for Linux
 ```
 3) Run the executable,
