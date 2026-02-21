@@ -10,3 +10,8 @@ int displayMenu(){
     printf("______________________\n");
     }
 
+void exitGame(){
+    printf("Well play. Better next time.\n");
+    printf("/home/\n");
+}
+
