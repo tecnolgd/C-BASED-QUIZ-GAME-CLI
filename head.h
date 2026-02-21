@@ -2,7 +2,11 @@
 #ifndef HEAD_H
 #define HEAD_H
 
-int back,choice;
+#include <stdio.h>
+#include <stdlib.h>
+//#include <conio.h>
+
+
 
 void startQuiz();
 void showRules();
